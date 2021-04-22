@@ -1,6 +1,7 @@
 body {
     font-family: arial;
     background-color: #e3ffcf;
+    overflow-x: hidden;
 }
 
 nav{
@@ -29,4 +30,13 @@ p{
 
 h2{
     text-align: center;
+}
+
+a.btn.btn-primary {
+    background: rgba(152, 252, 152, 1.0);
+background: -webkit-linear-gradient(bottom right, rgba(152, 252, 152, 1.0), rgba(248, 242, 145, 1.0));
+background: -moz-linear-gradient(bottom right, rgba(152, 252, 152, 1.0), rgba(248, 242, 145, 1.0));
+background: linear-gradient(to top left, rgba(152, 252, 152, 1.0), rgba(248, 242, 145, 1.0));
+    color: black;
+    border-color: #e3ffcf;
 }
